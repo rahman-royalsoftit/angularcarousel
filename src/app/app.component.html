@@ -1,13 +1,13 @@
 
 
 <div class="container pt-5">
-  <div class="card">
-    <div class="card-header fs-4 fw-bold text-primary">{{title}}</div>
-    <div class="card-body">
-      <div class="col-md-12">        
+  <div class="card col-md-8">
+    <div class="card-header fs-3 fw-bold text-primary">{{title}}</div>
+    <div class="card-body bg-primary">
+      <div class="mx-5" >        
         <ngb-carousel  *ngIf="dataSource"  [interval]="2000">
           <ng-template ngbSlide *ngFor="let item of dataSource">       
-            <img src="{{imageUrl}}/{{item.imageName}}"       alt="Random slide">
+            <img  src="{{imageUrl}}/{{item.imageName}}"       alt="Random slide">
             <!-- <div class="carousel-caption">
               <h3>{{ item.caption }}</h3>
               <p [innerText]="item.imageDescription"></p>

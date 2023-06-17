@@ -11,10 +11,12 @@ export class AppComponent {
   imageUrl = "assets/images/";
   
   dataSource : SlideImage[]=[
-    {imageName : 'royalsoftit-01.gif', caption: 'School Management System', imageDescription:'School Management System'},
-    {imageName : 'royalsoftit-02.gif', caption: 'Accounts Management System', imageDescription:'Accounts Management System'},
-    {imageName : 'royalsoftit-03.gif', caption: 'HR Management System', imageDescription:'HR Management System'},
-    {imageName : 'royalsoftit-04.gif', caption: 'Payroll Management System', imageDescription:'Payroll Management System'},
+    {imageName : 'royalTech-05.gif', caption: 'Full Stack Web Development', imageDescription:'Full Stack Web Development'},
+    {imageName : 'royalTech-02.gif', caption: 'Accounts Management System', imageDescription:'Accounts Management System'},
+    {imageName : 'royalTech-01.gif', caption: 'School Management System', imageDescription:'School Management System'},   
+    {imageName : 'royalTech-03.gif', caption: 'HR Management System', imageDescription:'HR Management System'},
+    {imageName : 'royalTech-04.gif', caption: 'Payroll Management System', imageDescription:'Payroll Management System'},
+  
     
   ];
 
